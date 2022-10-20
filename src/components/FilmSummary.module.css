@@ -1,0 +1,21 @@
+.summary {
+  margin: 20px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 110%;
+  margin: 0px;
+}
+
+.year {
+  margin: 0px;
+  padding-left: 1em;
+  color: #999999;
+}
+
+.score {
+  margin: 0px;
+  padding-left: 1em;
+  font-size: smaller;
+}

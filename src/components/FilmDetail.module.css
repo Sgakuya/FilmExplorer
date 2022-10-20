@@ -1,0 +1,10 @@
+.detail {
+  margin: 20px 1em;
+  border: 1px solid #dddddd;
+  padding: 20px;
+  display: flex;
+}
+
+.poster {
+  padding-right: 1rem;
+}
