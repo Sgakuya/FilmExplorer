@@ -2,7 +2,7 @@
   "name": "practical05-starter",
   "version": "0.2.0",
   "private": true,
-  "author":"",
+  "author": "Smith Gakuya",
   "contributors": [
     "Christopher Andrews <candrews@middlebury.edu>",
     "Michael Linderman <mlinderman@middlebury.edu>"
@@ -16,12 +16,12 @@
     "emulator": "firebase emulators:start",
     "test": "NEXT_PUBLIC_EMULATE=true jest --runInBand",
     "test:ci": "firebase emulators:exec 'npm test --runInBand'",
-    "seed":  "NEXT_PUBLIC_EMULATE=true node src/utils/seed-database.mjs data/films.json",
+    "seed": "NEXT_PUBLIC_EMULATE=true node src/utils/seed-database.mjs data/films.json",
     "lint": "eslint src",
     "prepare": "husky install"
   },
   "dependencies": {
-    "firebase": "^9.12.1",
+    "firebase": "^9.13.0",
     "next": "12.3.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"

@@ -5,7 +5,15 @@ import {  initializeFirestore, connectFirestoreEmulator, getFirestore, collectio
 
 // Firebase configuration
 const firebaseConfig = {
+  apiKey: "AIzaSyAZ09rTMC0nvtBQiFZobUoayNiylPKfU3o",
+  authDomain: "practical05-743eb.firebaseapp.com",
+  projectId: "practical05-743eb",
+  storageBucket: "practical05-743eb.appspot.com",
+  messagingSenderId: "472584118579",
+  appId: "1:472584118579:web:f2720a318342923b00de46",
+  measurementId: "G-0L2HEHG4W1"
 };
+
 
 
 // Initialize Firebase
